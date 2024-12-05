@@ -1,0 +1,19 @@
+sensors:
+  types:
+    - vibration
+    - temperature
+    - acoustic
+    - electrical
+  sampling_rate: 1000  # Hz
+
+ml_models:
+  anomaly_threshold: 0.85
+  prediction_horizon: 30  # days
+
+blockchain:
+  network: hyperledger
+  encryption: AES-256
+
+compliance:
+  privacy: GDPR
+  security: ISO27001

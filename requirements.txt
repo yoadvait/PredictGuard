@@ -1,0 +1,12 @@
+asyncio
+numpy
+pandas
+scikit-learn
+torch
+tensorflow
+fastapi
+uvicorn
+pyyaml
+pytest
+pytest-asyncio
+python-multipart
