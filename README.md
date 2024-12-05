@@ -80,6 +80,7 @@ python main.py
 
 ## Project Structure
 
+```bash
 PredictGuard/
 │
 ├── src/
@@ -126,6 +127,7 @@ PredictGuard/
 ├── requirements.txt
 ├── README.md
 └── config.yaml
+```
 
 ### Configuration
 Modify `config.yaml` to customize:
