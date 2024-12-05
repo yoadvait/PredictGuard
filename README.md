@@ -78,7 +78,54 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Usage
+## Project Structure
+
+PredictGuard/
+│
+├── src/
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   └── config.py
+│   │
+│   ├── sensors/
+│   │   ├── __init__.py
+│   │   ├── sensor_manager.py
+│   │   └── data_collector.py
+│   │
+│   ├── ml_models/
+│   │   ├── __init__.py
+│   │   ├── anomaly_detector.py
+│   │   ├── predictive_model.py
+│   │   └── scenario_generator.py
+│   │
+│   ├── data_processing/
+│   │   ├── __init__.py
+│   │   ├── data_pipeline.py
+│   │   └── data_validator.py
+│   │
+│   ├── blockchain/
+│   │   ├── __init__.py
+│   │   ├── data_integrity.py
+│   │   └── record_manager.py
+│   │
+│   ├── nlp/
+│   │   ├── __init__.py
+│   │   └── log_analyzer.py
+│   │
+│   └── visualization/
+│       ├── __init__.py
+│       ├── dashboard.py
+│       └── ar_interface.py
+│
+├── tests/
+│   ├── test_anomaly_detector.py
+│   ├── test_sensor_manager.py
+│   └── test_data_pipeline.py
+│
+├── requirements.txt
+├── README.md
+└── config.yaml
 
 ### Configuration
 Modify `config.yaml` to customize:
