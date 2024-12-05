@@ -1,5 +1,5 @@
-import pytest
 from src.sensors.sensor_manager import SensorNetworkManager
+import pytest
 
 @pytest.mark.asyncio
 async def test_sensor_data_collection():
